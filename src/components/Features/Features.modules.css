@@ -1,0 +1,20 @@
+#features {
+  background-image: url("../../assets/images/thumbs/thumbs-features-product.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0;
+  background-position: left;
+}
+
+.features__content .content {
+  max-width: 352px;
+}
+
+@media screen and (min-width: 992px) {
+  #features {
+    height: 600px;
+    background-position: center;
+  }
+}

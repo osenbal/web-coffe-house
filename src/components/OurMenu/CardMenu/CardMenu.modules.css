@@ -1,0 +1,23 @@
+.card__menu img {
+  width: 52px;
+  height: 52px;
+}
+.card__menu > div h6 {
+  text-transform: uppercase;
+}
+.card__menu > div p {
+  font-size: 12px;
+}
+.menu_price {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_price {
+    font-size: 16px;
+  }
+  .card__menu img {
+    width: 72px;
+    height: 72px;
+  }
+}

@@ -1,0 +1,72 @@
+.navbar {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  z-index: 1;
+  background-color: none;
+  position: absolute !important;
+  transition: all 0.3s linear;
+  top: 48px;
+}
+.navbar-scrolled {
+  background-color: rgba(152, 125, 97, 0.8);
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  top: 0 !important;
+  z-index: 1024;
+}
+
+.navbar-brand {
+  color: #eeeeee !important;
+  font-size: 1rem !important;
+  z-index: 9;
+}
+
+.navbar-nav {
+  column-gap: 24px !important;
+}
+
+.nav-item a {
+  color: #eeeeee !important;
+}
+
+.nav-item a:hover {
+  text-decoration: underline !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  z-index: 9;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.nav-open {
+  background-color: rgba(17, 17, 17, 0.95);
+  display: unset !important;
+  height: 100vh !important;
+  position: fixed !important;
+  left: 0;
+  top: 0 !important;
+  right: 0;
+}
+
+.navbar-nav {
+  text-align: left;
+  margin-top: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.open-collapse {
+  margin-top: 48px;
+  text-align: left;
+}

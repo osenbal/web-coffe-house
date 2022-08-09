@@ -1,0 +1,46 @@
+.jumbotron__hero {
+  height: 1032px;
+  object-fit: cover;
+}
+.jumbotron__content {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1032px;
+  color: #ffffff;
+  max-width: 962px;
+}
+.jumbotron__content h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.jumbotron__content h4 {
+  max-width: 763px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.jumbotron__logo {
+  height: 122px;
+  width: 120px;
+}
+.jumbotron__button {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 12px 41px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
+.jumbotron__button:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron__content h1 {
+    font-size: 96px;
+  }
+  .jumbotron__content h4 {
+    font-size: 32px;
+  }
+}
