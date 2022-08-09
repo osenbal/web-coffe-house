@@ -7,6 +7,7 @@ import OurMenu from "../../components/OurMenu/OurMenu";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import News from "../../components/News/News";
 import Location from "../../components/Location/Location";
+import Newsletter from "../../components/Newsletter/Newsletter";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <Testimonial />
         <News />
         <Location />
+        <Newsletter />
       </main>
     </>
   );

@@ -1,0 +1,25 @@
+#newsletter {
+  background-color: #111111;
+}
+.newsletter .section__header {
+  color: #ffffff;
+}
+.newsletter .btn__subscribe {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 0px 41px;
+  height: 48px;
+}
+.newsletter__form {
+  max-width: 474px;
+  margin: 0 auto;
+}
+.newsletter__form input[name="email"] {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+  padding: 0px 96px 0px 24px;
+  height: 48px;
+}
