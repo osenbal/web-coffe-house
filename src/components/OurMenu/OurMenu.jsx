@@ -1,24 +1,12 @@
+/* eslint-disable array-callback-return */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CardMenu from "./CardMenu/CardMenu";
-
 import dataMenu from "./dataMenu";
-
-import MenuBreakfast from "../../assets/images/thumbs/thumbs-menu-breakfast.png";
-import MenuBircher from "../../assets/images/thumbs/thumbs-menu-bircher.png";
-import MenuGranola from "../../assets/images/thumbs/thumbs-menu-granola.png";
-import MenuPrufRock from "../../assets/images/thumbs/thumbs-menu-prufrock.png";
-import MenuSoup from "../../assets/images/thumbs/thumbs-menu-soup.png";
-import MenuMushrooms from "../../assets/images/thumbs/thumbs-menu-mushrooms.png";
-import MenuTomatoes from "../../assets/images/thumbs/thumbs-menu-tomatoes.png";
-import MenuFruit from "../../assets/images/thumbs/thumbs-menu-fruit.png";
-import MenuEggs from "../../assets/images/thumbs/thumbs-menu-eggs.png";
-import MenuToast from "../../assets/images/thumbs/thumbs-menu-toast.png";
-
 import "./OurMenu.modules.css";
 const OurMenu = () => {
-  const [menu, setMenu] = useState(dataMenu);
+  const [menu] = useState(dataMenu);
   const [menuSelected, setMenuSelected] = useState(dataMenu[0]);
 
   return (
@@ -58,21 +46,23 @@ const OurMenu = () => {
                 transition={{ duration: 0.2 }}
                 className="col-12 col-lg-6 d-flex flex-column gap-4"
               >
-                {menuSelected
-                  ? menuSelected.data.map((item, index) => {
-                      if (index <= 4) {
-                        return (
-                          <CardMenu
-                            key={index}
-                            menuImg={item.image}
-                            menuName={item.name}
-                            menuDescription={item.description}
-                            price={item.price}
-                          />
-                        );
-                      }
-                    })
-                  : "😋"}
+                {menuSelected ? (
+                  menuSelected.data?.map((item, index) => {
+                    if (index <= 4) {
+                      return (
+                        <CardMenu
+                          key={index}
+                          menuImg={item.image}
+                          menuName={item.name}
+                          menuDescription={item.description}
+                          price={item.price}
+                        />
+                      );
+                    }
+                  })
+                ) : (
+                  <p>Empty Menu 😋</p>
+                )}
               </motion.div>
             </AnimatePresence>
             <AnimatePresence exitBeforeEnter>
@@ -84,21 +74,23 @@ const OurMenu = () => {
                 transition={{ duration: 0.2 }}
                 className="col-12 col-lg-6 d-flex flex-column gap-4 mt-4 mt-lg-0"
               >
-                {menuSelected
-                  ? menuSelected.data.map((item, index) => {
-                      if (index > 4) {
-                        return (
-                          <CardMenu
-                            key={index}
-                            menuImg={item.image}
-                            menuName={item.name}
-                            menuDescription={item.description}
-                            price={item.price}
-                          />
-                        );
-                      }
-                    })
-                  : "😋"}
+                {menuSelected ? (
+                  menuSelected.data?.map((item, index) => {
+                    if (index > 4) {
+                      return (
+                        <CardMenu
+                          key={index}
+                          menuImg={item.image}
+                          menuName={item.name}
+                          menuDescription={item.description}
+                          price={item.price}
+                        />
+                      );
+                    }
+                  })
+                ) : (
+                  <p>Empty Menu 😋</p>
+                )}
               </motion.div>
             </AnimatePresence>
           </div>
