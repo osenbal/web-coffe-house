@@ -1,0 +1,13 @@
+#news {
+  background-color: #eeeeee;
+}
+
+.news .section__header {
+  max-width: 474px;
+}
+.news .section__header span {
+  background-color: #444444;
+}
+
+@media screen and (max-width: 767px) {
+}

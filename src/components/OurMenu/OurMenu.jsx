@@ -12,16 +12,15 @@ const OurMenu = () => {
   return (
     <section className="ourMenu" id="ourMenu">
       <div className="container container__section h-100">
+        <div className="section__header">
+          <h3>Explore our menu</h3>
+          <span></span>
+          <p>
+            Available all day! We can not guarantee our foods are allergen-free.
+            Service charge not included.
+          </p>
+        </div>
         <div className="ourMenu__content">
-          <div className="section__header">
-            <h3>Explore our menu</h3>
-            <span></span>
-            <p>
-              Available all day! We can not guarantee our foods are
-              allergen-free. Service charge not included.
-            </p>
-          </div>
-
           <ul className="nav__menu d-flex flex-row justify-content-center align-item-center gap-5 mt-5">
             {menu.map((item) => (
               <li

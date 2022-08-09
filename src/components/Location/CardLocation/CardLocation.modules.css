@@ -1,0 +1,15 @@
+.locations .card {
+  background-color: transparent;
+  color: #ffffff;
+  max-width: 256px;
+  margin: 0 auto;
+}
+.locations .card > img {
+  max-width: 245px;
+  max-height: 239px;
+  margin: 0 auto;
+}
+.locations .card-title {
+  font-size: 24px;
+  text-transform: uppercase;
+}

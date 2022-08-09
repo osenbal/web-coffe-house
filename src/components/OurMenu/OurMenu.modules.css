@@ -1,20 +1,16 @@
 #ourMenu {
   background-color: #eeeeee;
-  padding: 100px 0;
 }
-.ourMenu__content .section__header {
-  max-width: 474px;
-}
-.ourMenu__content .section__header span {
+.ourMenu .section__header span {
   background-color: #44444444;
 }
-.nav__menu .nav__active {
+.ourMenu .nav__menu .nav__active {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.nav__menu li:hover {
+.ourMenu .nav__menu li:hover {
   cursor: pointer;
 }
-.nav__menu li a:hover {
+.ourMenu .nav__menu li a:hover {
   font-weight: 600;
 }

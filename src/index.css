@@ -63,9 +63,10 @@ a:hover {
   color: #000000;
 }
 .container__section {
-  padding: 0 2.5rem !important;
+  padding: 96px 2.5rem !important;
 }
 .section__header {
+  max-width: 474px;
   display: flex;
   justify-content: center;
   align-items: center;

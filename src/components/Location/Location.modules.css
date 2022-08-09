@@ -1,0 +1,13 @@
+#locations {
+  background-image: url("../../assets/images/thumbs/thumbs-locations.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.locations .section__header {
+  color: #ffffff;
+}
+
+.location__content > .row {
+  row-gap: 48px;
+}

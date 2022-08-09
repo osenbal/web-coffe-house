@@ -7,7 +7,7 @@ const BookTable = () => {
       <div className="container container__section d-flex align-item-center flex-column justify-content-center h-100">
         <div className="section__header">
           <h3>Looking for a fresh coffee?</h3>
-          <span className="mx-auto"></span>
+          <span></span>
           <p>
             Come drink a coffee with us on <br /> Fleet Street, Chancery Lane or
             Milkwood Road!
