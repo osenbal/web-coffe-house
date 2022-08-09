@@ -1,0 +1,32 @@
+#testimonial {
+  background-image: url("../../assets/images/thumbs/thumbs-testimonial.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 527px;
+}
+
+.testimonial .section__header {
+  color: #ffffff;
+  max-width: 735px;
+}
+.testimonial .testimonial__content {
+  max-width: 496px;
+}
+@media screen and (min-width: 768px) {
+  #testimonial {
+    height: 503px;
+  }
+  .testimonial .testimonial__content {
+    max-width: 688px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #testimonial {
+    height: 504px;
+  }
+  .testimonial .testimonial__content {
+    max-width: 735px;
+  }
+}

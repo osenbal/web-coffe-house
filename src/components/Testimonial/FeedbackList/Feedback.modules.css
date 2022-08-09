@@ -1,0 +1,27 @@
+.testimonial .swiper {
+  height: 280px !important;
+}
+.testimonial .swiper .swiper-slide {
+  cursor: pointer;
+  color: #ffffff;
+}
+.testimonial .swiper-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 6px !important;
+}
+.testimonial .swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonial .swiper {
+    height: 191px !important;
+  }
+}

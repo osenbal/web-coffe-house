@@ -14,7 +14,7 @@ const Features = () => {
     <section className="features" id="features">
       <div className="container container__section h-100">
         <div className="features__content flex-lg-row flex-column d-flex h-100 justify-content-center justify-content-lg-between align-items-start align-items-lg-center">
-          <div className="content d-flex flex-column gap-5 col-12 col-lg-6 order-2 order-lg-1">
+          <div className="content mt-5 mt-lg-0 d-flex flex-column gap-5 col-12 col-lg-6 order-2 order-lg-1">
             <CardFeature
               icon={IconHotCoffe}
               title="Indoor Seating"
