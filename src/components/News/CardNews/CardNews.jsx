@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./CardNews.modules.css";
+
 const CardNews = ({ image, title, description, link }) => {
   return (
     <div className="card">

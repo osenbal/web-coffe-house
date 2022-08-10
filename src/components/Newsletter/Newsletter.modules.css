@@ -12,6 +12,10 @@
   padding: 0px 41px;
   height: 48px;
 }
+.newsletter .btn__subscribe:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .newsletter__form {
   max-width: 474px;
   margin: 0 auto;

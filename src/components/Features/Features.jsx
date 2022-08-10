@@ -21,14 +21,12 @@ const Features = () => {
               isLeft={true}
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
-
             <CardFeature
               icon={IconPetCoffe}
               title="Pet Friendly"
               isLeft={true}
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
-
             <CardFeature
               icon={IconCupCoffe}
               title="Take Away"
@@ -43,13 +41,11 @@ const Features = () => {
               title="Indoor Seating"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
-
             <CardFeature
               icon={IconVegan}
               title="Vegan Options"
               description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             />
-
             <CardFeature
               icon={IconCyclist}
               title="Cyclist Friendly"
