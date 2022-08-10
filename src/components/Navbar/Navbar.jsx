@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef, useState } from "react";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import "./Navbar.modules.css";
@@ -78,32 +79,32 @@ const Navbar = () => {
             }`}
           >
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#Home">
+              <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <a className="nav-link" href="#features">
                 Why Us
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#menu">
+              <a className="nav-link" href="#ourMenu">
                 Menu
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#clients">
+              <a className="nav-link" href="#testimonial">
                 Happy Clients
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#blog">
+              <a className="nav-link" href="#news">
                 Blog
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#location">
+              <a className="nav-link" href="#locations">
                 Our Locations
               </a>
             </li>

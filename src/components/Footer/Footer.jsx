@@ -15,10 +15,10 @@ const Footer = () => {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#features">About</a>
             </li>
             <li>
-              <a href="#product">Shop</a>
+              <a href="#ourMenu">Shop</a>
             </li>
             <li>
               <a href="#footer">Contact</a>
