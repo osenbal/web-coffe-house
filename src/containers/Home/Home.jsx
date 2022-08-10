@@ -8,6 +8,7 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 import News from "../../components/News/News";
 import Location from "../../components/Location/Location";
 import Newsletter from "../../components/Newsletter/Newsletter";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <Location />
         <Newsletter />
       </main>
+      <Footer />
     </>
   );
 };
