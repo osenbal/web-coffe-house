@@ -21,6 +21,7 @@
   margin: 0 auto;
 }
 .newsletter__form input[name="email"] {
+  color: #ffffff;
   background-color: transparent;
   outline: none;
   border: 1px solid #ffffff;
