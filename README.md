@@ -2,6 +2,8 @@ Design By : Eugene Kwasny https://ui8.net/eugene-kwasny/products
 
 Slicing by : Osenbal
 
+deploy : https://coffee-housse.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
